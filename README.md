@@ -1,3 +1,5 @@
-# Projeto site da Delta Life
+# Projeto site para Delta Life
 
-Exemplo para o site criado com HTML5, CSS3 e vanilla Javascript 
+Este projeto foi criado com HTML, CSS e Vanilla Javascript.
+
+
