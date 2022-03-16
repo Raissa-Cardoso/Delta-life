@@ -74,7 +74,7 @@ body{
    overflow: hidden;   
 }
 .vitrine{
-    border: solid 1px red;
+    border: solid 1px rgb(20, 72, 131);
     margin: 5vh 5vw;
     height: 200px;
     border-radius: 10px;
@@ -99,12 +99,44 @@ body{
 .vitrine img:nth-child(1){
     display: block;
 }
+h3{
+    margin: 5vh 0 0 5vw;
+    padding: 0; 
+}
 .categoria{
-border: solid 1px rgb(27, 27, 27, 0.5);
-margin: 5vh 5vw;
-height: 200px;
-border-radius: 10px;
-width: 90vw;
+    border: solid 1px rgb(27, 27, 27, 0.5);
+    margin: 0 5vw 5vh 5vw;
+    height: 200px;
+    border-radius: 10px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.produtos{
+    border: solid 1px red;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+.categoria2{
+    border: solid 1px rgb(27, 27, 27, 0.5);
+    margin: 5vh 0;
+    height: 250px;
+    border-radius: 10px;
+    width: 35vw;
+}
+.agrupado{    
+    margin: 5vh 5vw;    
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    
+}
+h2{
+    text-align: center;
 }
 .mover {
     animation: slidein 3s;            
@@ -120,4 +152,3 @@ width: 90vw;
         width: 100%;
     }
 }
-  
