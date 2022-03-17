@@ -9,121 +9,49 @@
  
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="logo">
-            <a href="index.html">
-                <img src="assets/delta.jpg"  alt="Logo da Delta Life" onclick="clicou()">
-            </a>            
-        </div>
-        <div class="busca">
-            <input type="text" placeholder="">
-            <button>Pesquisar</button>
-        </div>  
-        <aside class="lateral">                       
-            <ul> 
-                <li>Seja Bem-vindo!</li>             
-                <li><a href="">Minha conta</a></li>
-                <li><a href="">Login</a></li>
-                <li><a href="">Carrinho</a></li>
-            </ul>
-        </aside>        
-           
+    <header class="cabecalho"> 
+        <div class="header" wm-slider>
+            <p><img class="cabecalhoFundo" src="assets/bannerFundo.jpg"  onclick="clicou()"></p>
+            <p><img class="cabecalhoFundo" src="assets/bannerFundo2.jpg"  onclick="clicou()"></p>            
+        </div>     
+        <div class="container">
+            <img id="logo" src="assets/delta2.jpg">
+            <div class="busca">
+                <input type="text" placeholder="Pesquisa">
+                <button type="submit">OK</button>
+            </div>            
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#produtos" target="_self">Produtos</a>                
+                    </li>
+                    <li>
+                        <a href="sobre.html">Minha Delta</a>
+                    </li>
+                    <li>
+                        <a href="#laudos">Assinaturas</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>               
+                </ul>
+            </nav>
+        </div>        
     </header>
-    <nav class="menu">
-        <ul>
-            <li>
-                <a href="index.html">Página inicial</a>
-            </li>
-            <li>
-                <a href="sobre.html" target="_self">Sobre a Delta Life</a>                
-            </li>
-            <li>
-                <a href="#sobre">Linha Veterinária</a>
-            </li>
-            <li>
-                <a href="#contato">Linha Médica</a>
-            </li>
-            <li>
-                <a href="#cursos">Acessórios</a>
-            </li>
-            <li>
-                <a href="#cursos">Seja um revendedor</a>
-            </li>
-            <li>
-                <a href="#cursos">Localização</a>
-            </li>
-            <li>
-                <a href="#cursos">Fale conosco</a>
-            </li>
-        </ul>
-    </nav>
     <section class="home">
-        <main class="container">
-            <div class="vitrine" wm-slider>
-                <p><img src="assets/imagem1.jpg"  onclick="clicou()"></p>            
-                <p><img src="assets/imagem2.jpg"  onclick="clicou()"></p>
-                <p><img src="assets/imagem3.jpg" onclick="clicou()"></p>
-                <p><img src="assets/imagem4.jpg"  onclick="clicou()"></p>            
-            </div>
-            <h3>Linha Veterinária</h3>                    
-            <div class="categoria">                
-                <div class="produtos"><img src="assets/vet1.jpeg"></div>
-                <div class="produtos"><img src="assets/vet2.jpeg"></div>
-                <div class="produtos"><img src="assets/vet3.jpeg"></div>
-                <div class="produtos"><img src="assets/vet4.jpeg"></div>
-            </div>
-            <div class="agrupado">               
-                <div class="categoria2">
-                    <h3 class="h3Dentro">Multiparamétricos</h3>                   
-                    <img src="assets/vet9.png" >
-                </div>
-                <div class="categoria2">
-                    <h3 class="h3Dentro">Oxímetros</h3>                   
-                    <img src="assets/vet10.png" >
-                </div>
-            </div>
-            <div class="agrupado">               
-                <div class="categoria2">
-                    <h3 class="h3Dentro">Eletrocardiogramas</h3>                   
-                    <img src="assets/vet11.png" >
-                </div>
-                <div class="categoria2">
-                    <h3 class="h3Dentro">Foco</h3>                   
-                    <img src="assets/vet12.png" >
-                </div>
-            </div>
-            
-            <div class="agrupado">               
-                <div class="categoria2">
-                    <h3 class="h3Dentro" id="central">Anestesia e Ventiladores Pulmonares</h3>                   
-                    <img src="assets/vet13.png" >
-                </div>                
-                <div class="categoria2"> 
-                    <h3 class="h3Dentro">Outros</h3>                   
-                    <img src="assets/vet14.jpeg" >
-                </div>
-            </div>
-            <div class="agrupado">               
-                <div class="categoria2">
-                    <h3 class="h3Dentro">Acessórios</h3>                   
-                    <img src="assets/vet15.png" >
-                </div>
-                <div class="categoria2">
-                    <h3 class="h3Dentro">ECG de Comodato</h3>                   
-                    <img src="assets/vet16.png" >
-                </div>
-            </div>
-            <h3>Linha Hospitalar</h3>
-            <div class="categoria">                
-                <div class="produtos"><img src="assets/hosp1.jpeg"></div>
-                <div class="produtos"><img src="assets/hosp2.jpeg"></div>
-                <div class="produtos"><img src="assets/hosp3.1.jpeg"></div>
-                <div class="produtos"><img src="assets/hosp4.1.jpeg"></div>
-            </div>
-            
+        <main class="principal">            
+              <div class="produto"></div> 
+              <div class="produto"></div>
+              <div class="produto"></div>
+              <div class="produto"></div> 
+              <div class="produto"></div>
+              <div class="produto"></div>               
         </main>
-    </section>
-    <footer class="rodape">
+    </section>    
+   <footer class="rodape">
         <div>
             <p>Telefone: (12) 3966-2884 / E-mail: contato@deltalife.com.br</p>
             <p>Suporte Técnico: (12) 99683-2433</p>    
