@@ -2,6 +2,16 @@ body{
     background-color: rgb(238, 245, 244);
     margin: 0;
 }
+.container h1, .container p, .container h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container p{
+    text-align: justify;
+}
+.container h2{
+    text-align: start;
+}
 .cabecalho{
     background-color: #fff;            
     display: flex;
@@ -140,7 +150,7 @@ h3{
     width: 35vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 30px 30px 30px 30px;
 }
 .categoria2 img{
@@ -154,7 +164,7 @@ h3{
     align-self: center;
     margin: 0;
     padding: 0;
-    color: rgb(31, 61, 31);
+    color: #fff;
 }
 .agrupado{    
     margin: 5vh 5vw;    
