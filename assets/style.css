@@ -10,31 +10,27 @@ body{
     display: flex;    
     flex-direction: row;
 }
-.header{
-    overflow: hidden; 
-    height: 400px;
-    width: 100%;         
-}
-.header img{
-    display: none;
-    height: 100%;
-    width: 100%;       
-}
-.header img:nth-child(1){
-    display: block;
-}
-
-.cabecalho p{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%; 
-}  
-#cabecalhoFundo{
+.header{   
     height: 400px;
     width: 100%;
+    display: flex;        
+    flex-direction: row;
 }
+.header p{
+    display: flex;
+    flex-direction: row;
+}
+.header img{
+    display: block;
+    height: 100%;
+    width: 4000px;  
+    animation: slidein 3s infinite;
+}   
+.cabecalho p{
+    margin: 0;
+    padding: 0;    
+}  
+
 .container{
     position: absolute;
     display: flex;
